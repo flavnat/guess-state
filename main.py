@@ -18,7 +18,7 @@ state_turtle = turtle.Turtle()
 
 guess_state = []
 while len(guess_state) < 9:
-    answer_state = screen.textinput(title=f"{len(guess_state)}/10 State Correct", prompt="What's another state name").title()
+    answer_state = screen.textinput(title=f"{len(guess_state)}/10 State Correct", prompt="What's another state name").title().lower()
     if answer_state == "Exit":
         break
     if answer_state in data_list and answer_state not in guess_state:
