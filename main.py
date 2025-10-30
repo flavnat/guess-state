@@ -28,6 +28,8 @@ while len(guess_state) < 9:
         state_turtle.hideturtle()
         state_turtle.penup()
         state_turtle.goto(int(state_name.x), int(state_name.y))
+        state_turtle.dot(15, "red")  
+        state_turtle.write(answer_state, align="center", font=("Arial", 12, "bold"))
         state_turtle.write(answer_state)
 
 user_data =pandas.DataFrame(guess_state)
