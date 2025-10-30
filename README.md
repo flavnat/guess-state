@@ -19,7 +19,8 @@ Each correct guess will be displayed directly on the **map of Ethiopia** at its 
 
 ## 🧩 Project Structure
 
-bash ```
+
+```
 ├── RegionalMap.gif # Map image of Ethiopia (used as the main background)
 ├── RegionalData.csv # CSV file containing region names and coordinates
 ├── main.py # Main game script (the code you provided)
@@ -31,7 +32,8 @@ bash ```
 
 1. Clone this repository
 
-bash ```
+
+```
 
 git clone https://github.com/yourusername/EthiopiaRegionsGame.git
 cd EthiopiaRegionsGame
@@ -39,7 +41,8 @@ cd EthiopiaRegionsGame
 ```
 2.Install dependencies
 
-bash ```
+
+```
 
 pip install pandas
 
@@ -47,7 +50,8 @@ pip install pandas
 
 3.Run the game
 
-bash ```
+
+```
 
 python main.py
 
